@@ -30,12 +30,7 @@
         {
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton3 = new RadioButton();
             button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -58,80 +53,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(51, 26);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(57, 29);
-            radioButton1.TabIndex = 2;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "90";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(51, 61);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(67, 29);
-            radioButton2.TabIndex = 3;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "180";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(51, 96);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(67, 29);
-            radioButton3.TabIndex = 4;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "270";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
             // button2
             // 
-            button2.Location = new Point(51, 131);
+            button2.Location = new Point(46, 286);
             button2.Name = "button2";
             button2.Size = new Size(112, 34);
-            button2.TabIndex = 5;
-            button2.Text = "Rotate";
+            button2.TabIndex = 2;
+            button2.Text = "OnlyGreen";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(53, 173);
-            button3.Name = "button3";
-            button3.Size = new Size(129, 34);
-            button3.TabIndex = 6;
-            button3.Text = "Invert Colors";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(51, 213);
-            button4.Name = "button4";
-            button4.Size = new Size(131, 34);
-            button4.TabIndex = 7;
-            button4.Text = "Upside Down";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(745, 414);
-            Controls.Add(button4);
-            Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(radioButton3);
-            Controls.Add(radioButton2);
-            Controls.Add(radioButton1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "Form1";
@@ -145,11 +82,6 @@
 
         private PictureBox pictureBox1;
         private Button button1;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton3;
         private Button button2;
-        private Button button3;
-        private Button button4;
     }
 }
